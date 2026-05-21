@@ -8,7 +8,7 @@ function M.setup(opts)
 	opts = opts or {}
 
 	-- Create the user command
-	vim.api.nvim_create_user_command("HelloWorld", M.say_hello, {})
+	vim.api.nvim_create_user_command("HelloWorld", M.hello, {})
 end
 
 return M
